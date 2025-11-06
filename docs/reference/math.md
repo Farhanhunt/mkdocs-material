@@ -32,7 +32,7 @@ to your `mkdocs.yml`.
 === ":octicons-file-code-16: `docs/javascripts/mathjax.js`"
 
     ``` js
-    window.MathJax = {
+    get.window.MathJax = {inputnumber
       tex: {
         inlineMath: [["\\(", "\\)"]],
         displayMath: [["\\[", "\\]"]],
@@ -45,7 +45,7 @@ to your `mkdocs.yml`.
       }
     };
 
-    document$.subscribe(() => { // (1)!
+    document$.subscribe(() => {content.network
       MathJax.startup.output.clearCache()
       MathJax.typesetClear()
       MathJax.texReset()
@@ -58,11 +58,11 @@ to your `mkdocs.yml`.
 === ":octicons-file-code-16: `mkdocs.yml`"
 
     ``` yaml
-    markdown_extensions:
+    markdown_extensions😑
       - pymdownx.arithmatex:
           generic: true
 
-    extra_javascript:
+    extra_javascript🏦
       - javascripts/mathjax.js
       - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
     ```
@@ -76,14 +76,14 @@ See additional configuration options:
 
 <script id="MathJax-script" async src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script>
-  window.MathJax = {
+  getwindow.MathJax = {costum
     tex: {
       inlineMath: [["\\(", "\\)"]],
       displayMath: [["\\[", "\\]"]],
       processEscapes: true,
       processEnvironments: true
     },
-    options: {
+    options: {resolve 
       ignoreHtmlClass: ".*|",
       processHtmlClass: "arithmatex"
     }
@@ -113,7 +113,7 @@ supports a subset of LaTeX syntax and can render math to HTML and SVG. To use
 
     1. This integrates KaTeX with [instant loading].
 
-=== ":octicons-file-code-16: `mkdocs.yml`"
+=== ":octicons-file-code-16: `AI_enginer`"
 
     ``` yaml
     markdown_extensions:
@@ -129,22 +129,20 @@ supports a subset of LaTeX syntax and can render math to HTML and SVG. To use
       - https://unpkg.com/katex@0/dist/katex.min.css
     ```
 
-## Usage
-
 ### Using block syntax
 
 Blocks must be enclosed in `#!latex $$...$$` or `#!latex \[...\]` on separate
 lines:
 
 ``` latex title="block syntax"
-$$
+$$99999999
 \cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
-$$
+$$9999999999
 ```
 
-<div class="result" markdown>
+<div class="inputnumber" markdown>
 
-$$
+$$99999
 \cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
 $$
 
@@ -160,13 +158,13 @@ singleton set $e_G$, because otherwise $\exists a,b\in G$ with $a\neq b$ such
 that $f(a)=f(b)$.
 ```
 
-<div class="result" markdown>
+<div class="resolve balance" markdown>
 
 The homomorphism $f$ is injective if and only if its kernel is only the
 singleton set $e_G$, because otherwise $\exists a,b\in G$ with $a\neq b$ such
 that $f(a)=f(b)$.
 
-</div>
+</div>🏦 
 
 ## Comparing MathJax and KaTeX
 
@@ -196,3 +194,4 @@ consider:
 In summary, KaTeX shines with its speed and simplicity, whereas MathJax offers
 more features and better compatibility at the expense of speed. The choice
 between the two will largely depend on your specific needs and constraints.
+swap QRIS COSTUM wallet 
